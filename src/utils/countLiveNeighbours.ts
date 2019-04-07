@@ -1,7 +1,7 @@
 import { LIVE_CELL } from '../constants';
 
 interface Grid {
-    grid: Array<[]>;
+    grid: Array<Array<boolean>>;
     rows: number;
     cols: number;
 }
